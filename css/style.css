@@ -111,16 +111,21 @@ body{
 	font-family: "New Amsterdam", sans-serif;
 	font-weight: 100;
 	max-width: 1200px;
+	width: 100%;
 	font-size: 50px;
-	margin: 50px 50% ;
+	margin: 50px auto ;
 	letter-spacing: 3px;
 }
-
+.header__logo h1{
+	text-align: center;
+	margin: 0 auto;
+}
 .nav{
 	display: flex;
 	justify-content: space-between;
 	align-items:normal;
 	max-width: 100%;
+	margin: 0 auto;
 }
 .nav-link{
 	font-family: Arial, Helvetica, sans-serif;
@@ -195,12 +200,12 @@ body{
 }
 .nav__footer{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items:normal;
 }
 .nav-link__three{
 	color: #333;
-	margin: 20px;
+	margin: 20px auto;
 	font-weight: 700;
 	font-size: 14px;
 }
